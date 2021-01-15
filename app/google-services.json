@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "207714232068",
+    "project_id": "digi-plushies-870f4",
+    "storage_bucket": "digi-plushies-870f4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:207714232068:android:4c6fa4fd16c9c818519251",
+        "android_client_info": {
+          "package_name": "com.example.digiplushies"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "207714232068-h7aukf2l4217qqcd6gilgrqtli8ifqgr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCx-3JP6sOHP0e7FSBVBmDb_rpqB_opYfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "207714232068-h7aukf2l4217qqcd6gilgrqtli8ifqgr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#cede59">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.094"
+        android:id="@+id/LoginText"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/LoginText"
+        android:layout_margin="30dp"
+        android:padding="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:hint="Enter your Username"
+        android:id="@+id/LoginUserName"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoginPassword"
+        app:layout_constraintTop_toBottomOf="@id/LoginUserName"
+        android:layout_margin="30dp"
+        android:hint="Enter your password here"
+        android:inputType="textPassword"
+        app:layout_constraintRight_toRightOf="parent"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@id/LoginPassword">
+
+        <Button
+            android:id="@+id/LoginBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:gravity="center_horizontal"
+            android:text="Login"
+            android:layout_centerInParent="true"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textColor="@color/button_text_color"
+            android:backgroundTint="@color/button_background_color"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+    </RelativeLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NOT SIGNED UP?"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="60dp"
+        android:layout_marginRight="30dp"
+        android:id="@+id/alreadySigned"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PRESS HERE"
+        app:layout_constraintTop_toBottomOf="@id/alreadySigned"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="20dp"
+        android:id="@+id/toSignUp"
+        android:textColor="@color/button_text_color"
+        android:backgroundTint="@color/button_background_color"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

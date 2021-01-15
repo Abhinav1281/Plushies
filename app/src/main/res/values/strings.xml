@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Digi Plushies</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">CccQLk7fhdRShFJn9th1b9PrVp1KcUlkszln0MH9</string>
+    <string name="back4app_client_key">iKTYqk9bPe175d8IGA8EeYLZWVpG412JK1cv3Of5</string>
+</resources>
